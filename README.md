@@ -4,7 +4,7 @@ A community feedback and idea-sharing platform built with the MERN (MongoDB, Exp
 
 <img width="1600" height="817" alt="image" src="https://github.com/user-attachments/assets/d0c18e60-2250-4d91-bb72-716984455dd2" />
 
-#Table of Contents
+# Table of Contents
 
 Project Overview
 
