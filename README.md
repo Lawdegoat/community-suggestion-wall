@@ -1,8 +1,8 @@
- Community Suggestion Wall
+ #Community Suggestion Wall
 
 A community feedback and idea-sharing platform built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It enables users to post, view, and interact with suggestions from others, fostering collaboration and transparency within a group or organization.
 
-📋 Table of Contents
+#Table of Contents
 
 Project Overview
 
@@ -18,7 +18,7 @@ Usage
 
 License
 
-🧩 Project Overview
+# Project Overview
 
 The Community Suggestion Wall is a full-stack web app that allows users to share ideas, suggestions, and feedback in a simple, organized way.
 
@@ -26,7 +26,7 @@ It includes both a backend API for data management and a React-based frontend fo
 
 This project can be adapted for schools, workplaces, or communities where open idea sharing is encouraged.
 
-🌟 Features
+# Features
 
 💬 Create, view, and manage community suggestions
 
@@ -47,7 +47,7 @@ Backend: Node.js, Express.js
 Database: MongoDB (via Mongoose)
 Tools: Axios, dotenv, nodemon
 
-🗂️ Schema Diagram
+# Schema Diagram
 Suggestion
 ├── _id: ObjectId
 ├── name: String
@@ -55,8 +55,8 @@ Suggestion
 ├── date: Date
 └── likes: Number
 
-🚀 Getting Started
-🔧 Prerequisites
+
+# Prerequisites
 
 Make sure you have installed:
 
@@ -64,7 +64,7 @@ Node.js (v16 or above)
 
 MongoDB (local or Atlas account)
 
-⚙️ Installation
+# Installation
 
 Clone the repository
 
@@ -94,7 +94,7 @@ npm start
 cd ../frontend
 npm start
 
-🧑‍💻 Usage
+# Usage
 
 Access the app via http://localhost:3000
 
@@ -104,12 +104,7 @@ View all suggestions on the main dashboard
 
 Backend API runs on http://localhost:5000
 
-🪪 License
-
-This project is open-source and available under the MIT License
-.
-
-👨‍💻 Author
+# Author
 
 Kaushik Ramakrishnan
 Aspiring Software Engineer passionate about full-stack web development and real-world applications.
