@@ -2,8 +2,6 @@ import express from "express";
 import Suggestion from "../models/Suggestion.js";
 
 const router = express.Router();
-
-// ✅ GET all suggestions
 router.get("/", async (req, res) => {
   try {
     const suggestions = await Suggestion.find().sort({ createdAt: -1 });
@@ -12,11 +10,9 @@ router.get("/", async (req, res) => {
     res.status(500).json({ message: "Error fetching suggestions" });
   }
 });
-
-// ✅ POST a new suggestion
 router.post("/", async (req, res) => {
   try {
-    console.log("Received:", req.body); // Optional debug
+    console.log("Received:", req.body); 
     const { name, text } = req.body;
     if (!name || !text) {
       return res.status(400).json({ message: "Missing name or text" });
