@@ -9,7 +9,6 @@ function App() {
   const [suggestions, setSuggestions] = useState([]);
   const [darkMode, setDarkMode] = useState(false);
 
-  // Fetch all suggestions on load
   useEffect(() => {
     axios
       .get("http://localhost:5000/api/suggestions")
@@ -17,7 +16,6 @@ function App() {
       .catch((err) => console.log(err));
   }, []);
 
-  // Submit new suggestion
   const handleSubmit = async () => {
     if (!name || !text) {
       alert("Please enter your name and suggestion!");
