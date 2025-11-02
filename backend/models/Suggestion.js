@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const suggestionSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  text: { type: String, required: true }, // ✅ fixed field name
+  text: { type: String, required: true }, 
   createdAt: { type: Date, default: Date.now },
 });
 
