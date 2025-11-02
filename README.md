@@ -1,6 +1,8 @@
- #Community Suggestion Wall
+ # Community Suggestion Wall
 
 A community feedback and idea-sharing platform built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It enables users to post, view, and interact with suggestions from others, fostering collaboration and transparency within a group or organization.
+
+<img width="1600" height="817" alt="image" src="https://github.com/user-attachments/assets/d0c18e60-2250-4d91-bb72-716984455dd2" />
 
 #Table of Contents
 
